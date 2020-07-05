@@ -4,18 +4,20 @@ let arr = [...'パタトクカシーー'];
 
 const odd = (x) => (x % 2 == 1);
 
-const f = (lst) => {
-    let arr = [];
-    for (let i = 0; i < lst.length; i++) {
-        if (i % 2 == 0) {
-            arr.push(lst[i]);
-        }
-    }
-    return arr;
-}
+console.log(arr.filter((elem, i) => i % 2 == 0).join(''));
 
-console.log(f(arr));
-console.log(arr);
+// const f = (lst) => {
+//     let arr = [];
+//     for (let i = 0; i < lst.length; i++) {
+//         if (i % 2 == 0) {
+//             arr.push(lst[i]);
+//         }
+//     }
+//     return arr;
+// }
+
+// console.log(f(arr));
+// console.log(arr);
 
 // const filter = (predi, lst) => {
 //     if (lst == null) {
