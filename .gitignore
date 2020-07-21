@@ -1,4 +1,3 @@
-resources/
-Scheme/
-uncleared/
-.vscode/
+sources
+uncleared
+.vscode
